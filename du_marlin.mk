@@ -29,7 +29,7 @@ $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Custom device configuration
 
-$(call inherit-product-if-exists, vendor/google/marlin/device-vendor-marlin.mk)
+$(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
 # Wait for GApps
 # $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk) 
 
