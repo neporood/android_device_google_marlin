@@ -1,0 +1,12 @@
+[
+ {
+   "repository":  "UnicornioSucio/android_kernel_google_marlin",
+   "target_path": "kernel/google/marlin",
+   "branch":      "q10x"
+ },
+ {
+   "repository":  "UnicornioSucio/android_vendor_google",
+   "target_path": "vendor/google",
+   "branch":      "q10x"
+ }
+]
