@@ -62,5 +62,7 @@ BUILD_FINGERPRINT := "google/marlin/marlin:10/QP1A.190711.020/5800535:user/relea
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=google/marlin/marlin:10/QP1A.190711.020/5800535:user/release-keys
 
+BOARD_PREBUILT_VENDORIMAGE := vendor/images/marlin/vendor.img
+
 $(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
